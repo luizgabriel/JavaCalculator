@@ -74,8 +74,8 @@ public class Calculator {
         expression = "";
     }
 
-    public void appendExpression(String demoExpression) {
-        for (char c : demoExpression.toCharArray()) {
+    public void appendExpression(String expression) {
+        for (char c : expression.toCharArray()) {
             if (c != ' ')
                 appendToken(c);
         }

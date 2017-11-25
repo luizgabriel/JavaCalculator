@@ -15,8 +15,7 @@ public class CalculatorPresenter extends BasePresenter<ICalculatorView> {
     }
 
     private void displayDemo() {
-        String demoExpression = "1.2 + 5.2";
-        calculator.appendExpression(demoExpression);
+        calculator.appendExpression("1.2 + 5.2");
         display(calculator.getResult());
         calculator.clear();
     }

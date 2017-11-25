@@ -1,6 +1,6 @@
 package presenters;
 
-public class BasePresenter<T> {
+public abstract class BasePresenter<T> {
     protected T view;
 
     public BasePresenter(T view) {
