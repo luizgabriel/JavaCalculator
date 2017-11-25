@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>frames.CalculatorFrame</OriginalElement>
+  <nodes>
+    <node x="72.5" y="374.0">presenters.BasePresenter</node>
+    <node x="311.0" y="374.0">CalculatorApplication</node>
+    <node x="0.0" y="123.0">frames.CalculatorFrame</node>
+    <node x="0.0" y="475.0">presenters.CalculatorPresenter</node>
+    <node x="307.0" y="0.0">models.Calculator</node>
+    <node x="11.5" y="0.0">views.ICalculatorView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="presenters.CalculatorPresenter" target="presenters.BasePresenter">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="frames.CalculatorFrame" target="views.ICalculatorView">
+      <point x="0.0" y="-103.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="379.5" y="313.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
